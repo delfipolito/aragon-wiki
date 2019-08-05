@@ -5,6 +5,7 @@ repo_url: 'https://github.com/aragon/aragon-wiki'
 site_description: 'Wiki for the Aragon Project'
 theme:
   name: 'material'
+  custom_dir: 'theme'
   palette:
     primary: 'blue grey'
     accent: 'cyan'
@@ -13,8 +14,6 @@ theme:
       code: 'HKGrotesk'
   logo: 'images/logo.svg'
   favicon: 'images/favicon.ico'
-  feature:
-    tabs: true
 markdown_extensions:
     - footnotes
     - admonition
@@ -60,7 +59,7 @@ extra:
     - type: 'linkedin'
       link: 'https://www.linkedin.com/company/aragonproject/'
 nav:
-  - Aragon Wiki:
+  - General:
     - Aragon Wiki: 'index.md'
     - About Aragon:
       - What is Aragon?: 'about/what_is.md'

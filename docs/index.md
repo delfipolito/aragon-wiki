@@ -1,8 +1,6 @@
-# Aragon Wiki
+<img class="wiki-cover" src="design/wiki-cover.svg" />
 
-<h2>Everything you need to learn more about Aragon</h2>
-
-<img src="design/logo/png/isotype.png" class="heroImg" align="right" />
+#  
 
 ___
 
