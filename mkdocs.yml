@@ -1,7 +1,7 @@
 site_name: 'Aragon Wiki'
-site_url: 'https://wiki.aragon.org'
-repo_name: 'aragon/aragon-wiki'
-repo_url: 'https://github.com/aragon/aragon-wiki'
+site_url: 'https://delfipolito.github.io/aragon-wiki'
+repo_name: 'delfipolito/aragon-wiki'
+repo_url: 'https://github.com/delfipolito/aragon-wiki'
 site_description: 'Wiki for the Aragon Project'
 theme:
   name: 'material'
