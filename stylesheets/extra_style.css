@@ -15,6 +15,10 @@
  src: url('./fonts/HKGrotesk-Light.ttf') format('opentype');
 }
 @font-face {
+ font-family: 'FontMedium';
+ src: url('./fonts/HKGrotesk-Medium.ttf') format('opentype');
+}
+@font-face {
  font-family: 'FontSemiBold';
  src: url('./fonts/HKGrotesk-SemiBold.ttf') format('opentype');
 }
@@ -215,7 +219,7 @@ html .md-footer-meta.md-typeset a {
   }
   [data-md-color-primary=blue-grey] .md-nav__item--nested>.md-nav__link {
     font-weight: 300;
-    font-size: 21px;
+    font-size: 20px;
     padding-top: .4rem;
     padding-left: .2rem;
   }
@@ -343,67 +347,6 @@ h1#aragon-wiki {
   color: rgba(0, 0, 0, 0.87);
 }
 
-.md-typeset h1 {
-  font-size: 38px;
-  font-weight: 400;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.63;
-  letter-spacing: normal;
-  color: #2d4051;
-}
-
-.md-typeset h2 {
-  font-size: 38px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.63;
-  letter-spacing: normal;
-  color: #2d4051;
-  margin-top: 0.5rem;
-}
-
-.md-typeset h3 {
-  font-size: 34px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.60;
-  letter-spacing: normal;
-  color: #2d4051;
-}
-
-.md-typeset h4 {
-  font-family: HankenGroteskRegular,sans-serif;
-  font-size: 30px;
-  font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  letter-spacing: normal;
-  line-height: 62px;
-  color: #2d4051;
-  margin-bottom: 10px;
-}
-
-.md-typeset h5 {
-  font-family: HankenGroteskLight,sans-serif;
-  font-size: 22px;
-  line-height: 62px;
-  color: #2d4051;
-}
-
-.md-typeset h6 {
-  font-family: HankenGroteskLight,sans-serif;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #2d4051;
-  padding-bottom: 30px;
-  border-bottom: .5px solid #ddd;
-  margin-top: 0!important;
-  margin-bottom: 30px;
-}
-
 .md-content__inner {
   padding-bottom: 3rem;
 }
@@ -412,6 +355,7 @@ h1#aragon-wiki {
   background-color: rgba(8, 190, 229, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition>.admonition-title:before, .md-typeset .admonition.abstract>summary:before, .md-typeset details>.admonition-title:before, .md-typeset details>summary:before {
@@ -426,6 +370,7 @@ h1#aragon-wiki {
   background-color: rgba(149, 236, 255, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.abstract>.admonition-title:before, .md-typeset .admonition.abstract>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.abstract>.admonition-title:before, .md-typeset details.abstract>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -440,6 +385,7 @@ h1#aragon-wiki {
   background-color: rgba(63, 232, 224, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.info>.admonition-title:before, .md-typeset .admonition.info>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.info>.admonition-title:before, .md-typeset details.info>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -454,6 +400,7 @@ h1#aragon-wiki {
   background-color: rgba(155, 199, 90, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.tip>.admonition-title:before, .md-typeset .admonition.tip>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.tip>.admonition-title:before, .md-typeset details.tip>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -468,6 +415,7 @@ h1#aragon-wiki {
   background-color: rgba(44, 198, 143, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.success>.admonition-title:before, .md-typeset .admonition.success>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.success>.admonition-title:before, .md-typeset details.success>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -482,6 +430,7 @@ h1#aragon-wiki {
   background-color: rgba(135, 241, 203, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.question>.admonition-title:before, .md-typeset .admonition.question>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.question>.admonition-title:before, .md-typeset details.question>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -496,6 +445,7 @@ h1#aragon-wiki {
   background-color: rgba(242, 193, 79, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.warning>.admonition-title:before, .md-typeset .admonition.warning>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.warning>.admonition-title:before, .md-typeset details.warning>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -510,6 +460,14 @@ h1#aragon-wiki {
   background-color: rgba(255, 177, 177, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
+}
+
+.md-typeset .admonition.fail>.admonition-title,
+.md-typeset .admonition.snippet>.admonition-title {
+  margin-top: -20px;
+  margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.failure>.admonition-title:before, .md-typeset .admonition.failure>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.failure>.admonition-title:before, .md-typeset details.failure>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -524,6 +482,7 @@ h1#aragon-wiki {
   background-color: rgba(255, 105, 105, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.danger>.admonition-title:before, .md-typeset .admonition.danger>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.danger>.admonition-title:before, .md-typeset details.danger>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -538,6 +497,7 @@ h1#aragon-wiki {
   background-color: rgba(202, 65, 65, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.bug>.admonition-title:before, .md-typeset .admonition.bug>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.bug>.admonition-title:before, .md-typeset details.bug>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -552,6 +512,7 @@ h1#aragon-wiki {
   background-color: rgba(77, 34, 223, 0.2);
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 .md-typeset .admonition.example>.admonition-title:before, .md-typeset .admonition.example>summary:before, .md-typeset .admonition.summary>.admonition-title:before, .md-typeset .admonition.summary>summary:before, .md-typeset .admonition.tldr>.admonition-title:before, .md-typeset .admonition.tldr>summary:before, .md-typeset details.example>.admonition-title:before, .md-typeset details.example>summary:before, .md-typeset details.summary>.admonition-title:before, .md-typeset details.summary>summary:before, .md-typeset details.tldr>.admonition-title:before, .md-typeset details.tldr>summary:before {
@@ -569,6 +530,7 @@ h1#aragon-wiki {
 .md-typeset .admonition.quote>.admonition-title {
   margin-top: -20px;
   margin-left: -20px;
+  width: calc(100% + 40px);
 }
 
 [data-md-color-primary="blue-grey"] .md-typeset a.logo2 img {
@@ -848,9 +810,14 @@ h1#aragon-wiki {
   .md-sidebar--secondary { order: 3; }
 }
 
-/* @media all and (min-width: 600px) {
-  .md-sidebar { flex: 1 0 0; }
-} */
+
+.md-nav__item.md-nav__item--nested .md-nav label {
+  font-size: 16px!important;
+  font-family: 'FontSemiBold', sans-serif;
+  padding-left: 0;
+  padding-top: 0;
+  color: #2d4050;
+}
 
 
 /* CONTENT */
@@ -880,4 +847,88 @@ h1#aragon-wiki {
   .aragon-navbar .center ul.right, .aragon-navbar .center ul.left {
     display: none;
   }
+}
+
+
+/* FONT STYLES */
+.md-typeset {
+  font-family: 'FontMedium', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  color: #7F8196;
+}
+
+.md-typeset blockquote, .md-typeset ol, .md-typeset p, .md-typeset ul {
+  margin: 0.8em 0;
+}
+
+.md-typeset h1 {
+  font-family: 'HankenGroteskRegular', sans-serif;
+  font-size: 38px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: #2d4051;
+  padding-top: 30px;
+  color: #2d4051;
+}
+.md-typeset h2 {
+  font-family: 'HankenGroteskLight', sans-serif;
+  font-size: 33px;
+  font-weight: 300;
+  line-height: 1.63;
+  color: #2d4051;
+  padding-top: 60px;
+}
+
+h1 + h2 {
+  padding-top: 0px!important;
+  margin-top: 0!important;
+}
+
+.md-typeset h3 {
+  font-family: 'FontSemiBold', sans-serif;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-size: 26px;
+  color: #30404F;
+  margin: 60px 0px 10px 0;
+}
+
+.md-typeset h4 {
+  font-family: 'FontMedium', sans-serif;
+  font-weight: 400;
+  color: #2D4051;
+  margin: 60px 0px 10px 0;
+  font-size: 21px;
+  line-height: 1;
+  color: #30404F;
+}
+
+h3 + h4, h2 + h3 {
+  margin-top: 20px!important;
+}
+
+.md-typeset h5 {
+  font-family: 'FontSemiBold', sans-serif!important;
+  margin-bottom: 0;
+  text-transform: none;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 1.2rem 0 0 0;
+  color: #30404F;
+}
+
+
+
+.md-typeset h6 {
+  font-family: 'FontMedium',sans-serif;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: HK Grotesk;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 1.2rem 0 0 0;
+  color: #30404F;
 }
